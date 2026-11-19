@@ -1,0 +1,23 @@
+# Rien du jeu ni de ce qui en dérive : jamais dans le dépôt
+*.nup
+extracted/
+work/
+recomp/build/
+recomp/out/
+recomp/launcher/extraits/
+recomp/launcher/build/
+# outils téléchargés (outils.py), launcher compilé, réglages et mises à jour locales
+recomp/outils/
+outils/
+recomp/launcher/lanceur.exe
+lanceur.exe
+lanceur.ini
+lanceur.log
+maj/
+mise_a_jour.log
+dist/
+__pycache__/
+*.pyc
+# Leia SR : SR-lib et le SDK SR (propriétaire) restent locaux ; objets de construction du module
+recomp/leia/SR-lib/
+recomp/leia/obj/
